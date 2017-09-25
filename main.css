@@ -1,4 +1,31 @@
 body {
     background-color: black;
     color: white;
+    font-family: 'Ubuntu', sans-serif;
+    animation: colorchange 3s;
+}
+
+@keyframes colorchange {
+    0% {background-color: white;}
+    25% {background-color: white;}
+    100% {background-color: black;}
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: white;
+    text-decoration: none;
+}
+
+.btn-default, .btn-default:hover, .btn-default:focus, .btn-default:active {
+    background-color: black !important;
+    border: none !important;
+    color: white !important;
+}
+
+#header {
+    margin-top: 10%;
+}
+
+.firstFade, .secondFade, .thirdFade {
+    opacity: 0;
 }
