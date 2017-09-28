@@ -4,11 +4,12 @@ $(".thirdFade").delay(2000).animate({ opacity: 1 }, 1500);
 
 $("#submitEmail").click(function() {
     $.post(
-        "http://localhost:8000/",
+        "https://whispering-waters-46499.herokuapp.com/",
         {"email": $("#emailInput").val()},
         function(resp) {
-            console.log(resp);
             $("#emailForm").html("<br>Thank you. We'll keep you posted.");
         },
-    );
+    ).fail(function() {
+        $("#emailForm").html("<br>Hmm. The email submission didn't work. Try again later.");
+    });
 });
