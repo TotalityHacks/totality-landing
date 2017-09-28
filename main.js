@@ -3,6 +3,10 @@ $(".secondFade").delay(1750).animate({ opacity: 1 }, 1500);
 $(".thirdFade").delay(2000).animate({ opacity: 1 }, 1500);
 
 $("#submitEmail").click(function() {
+    document.getElementById("emailForm").submit();
+});
+
+$("#emailForm").submit(function() {
     $.post(
         "https://whispering-waters-46499.herokuapp.com/",
         {"email": $("#emailInput").val()},
@@ -12,4 +16,5 @@ $("#submitEmail").click(function() {
     ).fail(function() {
         $("#emailForm").html("<br>Hmm. The email submission didn't work. Try again later.");
     });
+    return false;
 });
