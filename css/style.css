@@ -183,6 +183,20 @@ tr:nth-child(even){background-color: #ddeef2}
 
   .lead {
     width: 300px;
+    font-size: 11pt;
+  }
+
+  #profpic {
+    width: 220px;
+    height: 80px;
+  }
+
+  #emailInput {
+      font-size: 8.5pt;
+  }
+
+  #emailSubmit {
+      font-size: 8.5pt;
   }
 }
 
