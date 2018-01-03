@@ -1,0 +1,193 @@
+html, body{ margin:0px 0px; width: 100%;}
+
+#hero{
+    background: black;
+  background-size:cover;
+  position:relative;
+  height:100vh;
+  font-family: 'Roboto', 'Helvetica Neue';
+}
+
+#hero hr {
+  width: 280px;
+  margin-top: -10px;
+  background-color:white;
+}
+
+
+#hero #quote {
+  font-style:italic;
+}
+
+.header{
+  position:absolute;
+  top:45%;
+  text-align:center;
+  width:100%;
+  color:#fff;
+  -ms-transform: translate(0,-45%); /* IE 9 */
+   	-webkit-transform: translate(0,-45%); /* Safari */
+    transform: translate(0,-45%);
+}
+
+.header h1 {
+  text-align:center;
+  font-family: 'Roboto';
+  font-weight:100;
+  font-size: 60px;
+  margin-top: 5px;
+}
+
+
+.header .lead {
+  text-align:center!important;
+  /*margin-top: -35px!important;*/
+  color:white!important;
+}
+
+.lead {
+  font-size: 14pt;
+  font-family: 'Menlo', 'Open Sans', 'Helvetica', 'Arial';
+  font-weight: 300!important;
+  color: grey!important;
+  line-height: 130%!important;
+  text-align: justify;
+}
+
+.lead a {
+    color: white!important;
+}
+
+#emailInput {
+    font-family: 'Menlo';
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    padding: 10px;
+    border: 1px solid white;
+    color: black;
+    font-size: 10pt;
+}
+
+#emailInput:focus {
+    color: #3498db;
+}
+
+#emailSubmit {
+    font-family: 'Menlo';
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    padding: 10px;
+    border: 1px solid #3498db;
+    background-color: #3498db;
+    color: white;
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+#emailSubmit:hover {
+    cursor: pointer;
+}
+
+#emailSubmit:active {
+    background-color: #9b59b6;
+    border: 1px solid #9b59b6;
+}
+
+.social img {
+  height: 45px;
+  padding-left: 2px;
+  padding-right: 2px;
+  -webkit-filter: grayscale(90%);
+  -moz-filter: grayscale(90%);
+  filter: grayscale(90%);
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  -o-transition: all 0.1s linear;
+  -ms-transition: all 0.1s linear;
+
+}
+
+.social img:hover {
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+
+#profpic {
+  padding-bottom: 0;
+  width: 280px;
+  height: 100px;
+}
+
+
+.content{
+  border-top: 1px solid rgb(220, 220, 220);
+  font-family: 'Open Sans', 'Helvetica', 'Arial';
+  padding:30px 0px;
+  text-align:justify;
+  width:80%;
+  margin:0px auto;
+}
+
+.content h2{
+  font-family: 'Roboto', 'Helvetica Neue';
+  font-size: 30pt;
+  font-weight: 100;
+  margin:0px 0px 30px 0px;
+  text-align:left;
+}
+
+#footer{
+  padding:30px 0px;
+  text-align:center;
+  background:rgb(240, 240, 240);
+  font-family:'Roboto', 'Helvetica Neue';
+  font-weight: 300;
+}
+
+a {
+  color: rgb(0, 210, 255);
+  text-decoration: none!important;
+}
+
+a:hover {
+  color: rgb(0, 176, 214)!important;
+}
+
+a:visited {
+  color: rgb(0, 210, 255);
+  text-decoration: none!important;
+
+  font-style: normal;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even){background-color: #ddeef2}
+
+
+
+@media only screen and (max-width: 500px) {
+  .header h1 {
+    font-size: 50px;
+    padding-bottom: 10px!important;
+    padding-top: 5px!important;
+  }
+
+  .lead {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .header h1 {
+    /*font-size: 40px;*/
+  }
+}
