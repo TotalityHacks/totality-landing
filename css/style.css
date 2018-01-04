@@ -46,7 +46,7 @@ html, body{ margin:0px 0px; width: 100%;}
 }
 
 .lead {
-  font-size: 14pt;
+  font-size: 17pt;
   font-family: 'Menlo', 'Open Sans', 'Helvetica', 'Arial';
   font-weight: 300!important;
   color: grey!important;
@@ -120,10 +120,9 @@ html, body{ margin:0px 0px; width: 100%;}
 
 #profpic {
   padding-bottom: 0;
-  width: 280px;
+  width: 380px;
   height: 100px;
 }
-
 
 .content{
   border-top: 1px solid rgb(220, 220, 220);
