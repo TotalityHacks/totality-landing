@@ -1,42 +1,115 @@
+<!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
     <title>Totality Hacks 2018</title>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link href="main.css" rel="stylesheet">
-    <script
-        src="https://code.jquery.com/jquery-1.12.4.min.js"
-        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
-    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
-    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
-    
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/pills.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="container">
-    <div id="content">
-        <div id="header" class="row text-center">
-            <img class="firstFade" src="logo.svg" width="50%" style="min-width: 325px;">
-            <div class="secondFade">
-                <h1>October 12-14, 2018</h1>
-                <a target="_blank" href="https://goo.gl/maps/ofgrWq9iNFv"><h3>Brooklyn Expo Center, New York</h3></a>
-                <h3>1000 Hackers, 36 hours</h3>
+<body>
+    <div id="wrapper" style="width: 100%;">
+        <div id="hero">
+            <div class="header">
+                <img id="profpic" src="logo.svg" />
+                <center>
+                    <p class="lead">
+                        October 12-14, 2018<br />
+                        <a target="_blank" href="https://goo.gl/maps/ofgrWq9iNFv">Brooklyn Expo Center, New York</a><br />
+                        1000 Hackers, 36 hours<br />
+
+                        <form id="emailForm" class="form-inline text-center thirdFade">
+                            <div class="col-xs-2"></div>
+                            <div class="col-xs-8">
+                                <br>
+                                <div class="form-group">
+                                    <input id="emailInput" type="email" name="email" class="form-control" required placeholder="Enter your Email" autocomplete="off">
+                                    <input type="submit" id="emailSubmit" class="btn btn-default" value="Stay Tuned">
+                                </div>
+                            </div>
+                            <div class="col-xs-2"></div>
+                        </form>
+                    </p>
+                </center>
             </div>
         </div>
-        <form id="emailForm" class="form-inline text-center thirdFade">
-            <div class="col-xs-2"></div>
-            <div class="col-xs-8">
-                <br>
-                <div class="form-group">
-                    <label for="emailInput" class="sr-only">Enter your Email</label>
-                    <input id="emailInput" type="email" name="email" class="form-control" required placeholder="Enter your Email">
-                    <input type="submit" class="btn btn-default" value="Stay Tuned">
+
+        <div class="row">
+            <div class="two columns"></div>
+            <div class="eight columns">
+                <h1>$ About</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin purus nulla, ullamcorper vel convallis vel, iaculis eu sapien. Suspendisse nec euismod justo. Cras at urna in tellus pellentesque ullamcorper. Nulla volutpat gravida porta. Integer vitae magna justo. Pellentesque viverra aliquet lectus ac vulputate. Donec sodales mauris vitae congue vestibulum.
+                </p>
+                <p>
+                    Aliquam erat volutpat. Pellentesque pellentesque est sit amet velit consequat, in laoreet ipsum pharetra. Aenean volutpat neque condimentum, pharetra velit sed, eleifend mauris. Nulla lacinia vehicula erat, vitae ullamcorper risus vulputate vel. Quisque maximus quam eu sapien lacinia rutrum. Ut lacinia enim eget est efficitur, in auctor felis facilisis. Ut pharetra iaculis quam. Cras varius leo enim, id sodales libero finibus pellentesque. Nullam et purus imperdiet risus dapibus sodales. Fusce auctor laoreet lacus, non lacinia sapien placerat pulvinar. Nam id tellus bibendum nibh tincidunt lacinia ac sit amet velit. Nullam porttitor porta velit ac condimentum. Aliquam rutrum mollis nunc ac suscipit. Vivamus auctor efficitur eros, vel pharetra arcu vulputate ac. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla nisl ex, maximus vel posuere nec, vulputate ac elit.
+                </p>
+                <p>
+                    Suspendisse porttitor tellus sed lorem faucibus venenatis. Maecenas sodales facilisis massa eget accumsan. Nulla tellus nisi, sodales nec feugiat eget, pulvinar ac dolor. Vestibulum fringilla ante non lacinia venenatis. In convallis vehicula luctus. Aliquam congue, lacus et scelerisque scelerisque, felis turpis sagittis diam, et elementum velit mi eu quam. Maecenas tincidunt enim tortor, ac volutpat mi scelerisque vitae. Quisque iaculis euismod arcu, quis tempor ligula efficitur a. Nullam mattis fringilla justo ut blandit. Morbi tempus sapien sed nisi consequat, ac pretium libero scelerisque. Nunc vestibulum sapien velit, ac bibendum leo cursus sed. Ut vitae enim neque. Etiam in faucibus eros. Sed molestie tincidunt suscipit. Etiam aliquam nisi at sapien pulvinar, eget molestie est aliquam.
+                </p><br />
+
+                <h1>$ Learn</h1>
+                <div class="row">
+                    <div class="six columns">
+                        <h3>Mentorship</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin purus nulla, ullamcorper vel convallis vel, iaculis eu sapien. Suspendisse nec euismod justo. Cras at urna in tellus pellentesque ullamcorper. Nulla volutpat gravida porta. Integer vitae magna justo. Pellentesque viverra aliquet lectus ac vulputate. Donec sodales mauris vitae congue vestibulum.
+                        </p>
+                        <p>
+                            Aliquam erat volutpat. Pellentesque pellentesque est sit amet velit consequat, in laoreet ipsum pharetra. Aenean volutpat neque condimentum, pharetra velit sed, eleifend mauris. Nulla lacinia vehicula erat, vitae ullamcorper risus vulputate vel. Quisque maximus quam eu sapien lacinia rutrum. Ut lacinia enim eget est efficitur, in auctor felis facilisis. Ut pharetra iaculis quam. Cras varius leo enim, id sodales libero finibus pellentesque. Nullam et purus imperdiet risus dapibus sodales. Fusce auctor laoreet lacus, non lacinia sapien placerat pulvinar. Nam id tellus bibendum nibh tincidunt lacinia ac sit amet velit. Nullam porttitor porta velit ac condimentum. Aliquam rutrum mollis nunc ac suscipit. Vivamus auctor efficitur eros, vel pharetra arcu vulputate ac. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla nisl ex, maximus vel posuere nec, vulputate ac elit.
+                        </p>
+                        <p>
+                            Suspendisse porttitor tellus sed lorem faucibus venenatis. Maecenas sodales facilisis massa eget accumsan. Nulla tellus nisi, sodales nec feugiat eget, pulvinar ac dolor. Vestibulum fringilla ante non lacinia venenatis. In convallis vehicula luctus. Aliquam congue, lacus et scelerisque scelerisque, felis turpis sagittis diam, et elementum velit mi eu quam. Maecenas tincidunt enim tortor, ac volutpat mi scelerisque vitae. Quisque iaculis euismod arcu, quis tempor ligula efficitur a. Nullam mattis fringilla justo ut blandit. Morbi tempus sapien sed nisi consequat, ac pretium libero scelerisque. Nunc vestibulum sapien velit, ac bibendum leo cursus sed. Ut vitae enim neque. Etiam in faucibus eros. Sed molestie tincidunt suscipit. Etiam aliquam nisi at sapien pulvinar, eget molestie est aliquam.
+                        </p>
+                    </div>
+                    <div class="six columns">
+                        <h3>Workshops</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin purus nulla, ullamcorper vel convallis vel, iaculis eu sapien. Suspendisse nec euismod justo. Cras at urna in tellus pellentesque ullamcorper. Nulla volutpat gravida porta. Integer vitae magna justo. Pellentesque viverra aliquet lectus ac vulputate. Donec sodales mauris vitae congue vestibulum.
+                        </p>
+                        <p>
+                            Aliquam erat volutpat. Pellentesque pellentesque est sit amet velit consequat, in laoreet ipsum pharetra. Aenean volutpat neque condimentum, pharetra velit sed, eleifend mauris. Nulla lacinia vehicula erat, vitae ullamcorper risus vulputate vel. Quisque maximus quam eu sapien lacinia rutrum. Ut lacinia enim eget est efficitur, in auctor felis facilisis. Ut pharetra iaculis quam. Cras varius leo enim, id sodales libero finibus pellentesque. Nullam et purus imperdiet risus dapibus sodales. Fusce auctor laoreet lacus, non lacinia sapien placerat pulvinar. Nam id tellus bibendum nibh tincidunt lacinia ac sit amet velit. Nullam porttitor porta velit ac condimentum. Aliquam rutrum mollis nunc ac suscipit. Vivamus auctor efficitur eros, vel pharetra arcu vulputate ac. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla nisl ex, maximus vel posuere nec, vulputate ac elit.
+                        </p>
+                        <p>
+                            Suspendisse porttitor tellus sed lorem faucibus venenatis. Maecenas sodales facilisis massa eget accumsan. Nulla tellus nisi, sodales nec feugiat eget, pulvinar ac dolor. Vestibulum fringilla ante non lacinia venenatis. In convallis vehicula luctus. Aliquam congue, lacus et scelerisque scelerisque, felis turpis sagittis diam, et elementum velit mi eu quam. Maecenas tincidunt enim tortor, ac volutpat mi scelerisque vitae. Quisque iaculis euismod arcu, quis tempor ligula efficitur a. Nullam mattis fringilla justo ut blandit. Morbi tempus sapien sed nisi consequat, ac pretium libero scelerisque. Nunc vestibulum sapien velit, ac bibendum leo cursus sed. Ut vitae enim neque. Etiam in faucibus eros. Sed molestie tincidunt suscipit. Etiam aliquam nisi at sapien pulvinar, eget molestie est aliquam.
+                        </p>
+                    </div>
+                </div>
+
+                <h1>$ Apply</h1>
+                <h3>The Application Process</h3>
+
+                <p>Thousands of qualified candidates apply to participate in PennApps every year, however our space can only support a limited number of participants and as much as we'd like to take everyone, it just isn't possible. We think that the fairest way to decide who we invite is by asking everyone to tell us a little bit about themselves, so that we can invite people who have demonstrated interest and skill.</p>
+
+                <p>We don't expect everyone to have been to a hackathon before, in fact, we love first-time hackers having been there ourselves when we started! We're just trying to bring those who most want to really build something awesome and learn something new, and while we can't invite everyone, we're striving to continue building a community of diverse and amazing hackers at PennApps. Just show us what you've made, tell us about why you want to be at PennApps, and we'll do our best to get you here!</p>
+
+                <p>By growing to become the largest hackathon in the nation, we hope to double the number of people we can invite to PennApps, so get ready for a life-changing experience!</p><br />
+            </div>
+        </div>
+
+
+
+        <div id="footer">
+            <div class="row">
+                <div class="two columns"></div>
+                <div class="eight columns">
+                    <div class="six columns">
+                        <a href="#home"><img src="http://2017f.pennapps.com/img/PennApps-white.png" width="50px"></a>
+                        <p>&copy; Totality Hacks 2018</p>
+                    </div>
+                    <div class="six columns">
+                        <a href="#about">About</a><br />
+                        <a href="#learn">Learn</a><br />
+                        <a href="#apply">Apply</a><br />
+                        <a href="#logistics">Logistics</a><br />
+                        <a href="#sponsor">Sponsor</a><br />
+                        <a href="http://pennapps.com/policies/conduct/">Code of Conduct</a>
+                    </div>
                 </div>
             </div>
-            <div class="col-xs-2"></div>
-        </form>
-    </div>
-    <script src="main.js"></script>
+        </div>
+    </div><!-- end #wrapper -->
+
+
 </body>
 </html>
