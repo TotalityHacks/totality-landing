@@ -58,6 +58,11 @@ html, body{ margin:0px 0px; width: 100%;}
     color: white!important;
 }
 
+#emailForm {
+    font-family: 'Menlo', 'Roboto', sans-serif;
+    color: rgb(235, 50, 90);
+}
+
 #emailInput {
     font-family: 'Menlo';
     border-top-left-radius: 6px;
@@ -69,7 +74,7 @@ html, body{ margin:0px 0px; width: 100%;}
 }
 
 #emailInput:focus {
-    color: #3498db;
+    color: rgb(235, 50, 90);
 }
 
 #emailSubmit {
@@ -77,8 +82,8 @@ html, body{ margin:0px 0px; width: 100%;}
     border-top-right-radius: 6px;
     border-bottom-right-radius: 6px;
     padding: 10px;
-    border: 1px solid #3498db;
-    background-color: #3498db;
+    border: 1px solid rgb(235, 50, 90);
+    background-color: rgb(235, 50, 90);
     color: white;
     font-size: 10pt;
     font-weight: bold;
