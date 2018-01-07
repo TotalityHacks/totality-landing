@@ -26,8 +26,8 @@ html, body{ margin:0px 0px; width: 100%;}
   width:100%;
   color:#fff;
   -ms-transform: translate(0,-45%); /* IE 9 */
-   	-webkit-transform: translate(0,-45%); /* Safari */
-    transform: translate(0,-45%);
+  -webkit-transform: translate(0,-45%); /* Safari */
+  transform: translate(0,-45%);
 }
 
 .header h1 {
@@ -47,7 +47,7 @@ html, body{ margin:0px 0px; width: 100%;}
 
 .lead {
   font-size: 17pt;
-  font-family: 'Menlo', 'Open Sans', 'Helvetica', 'Arial';
+  font-family: 'Ubuntu', 'Open Sans', 'Helvetica', 'Arial';
   font-weight: 300!important;
   color: grey!important;
   line-height: 130%!important;
@@ -59,12 +59,12 @@ html, body{ margin:0px 0px; width: 100%;}
 }
 
 #emailForm {
-    font-family: 'Menlo', 'Roboto', sans-serif;
+    font-family: 'Ubuntu', 'Roboto', sans-serif;
     color: rgb(235, 50, 90);
 }
 
 #emailInput {
-    font-family: 'Menlo';
+    font-family: 'Ubuntu';
     border-top-left-radius: 6px;
     border-bottom-left-radius: 6px;
     padding: 10px;
@@ -78,7 +78,7 @@ html, body{ margin:0px 0px; width: 100%;}
 }
 
 #emailSubmit {
-    font-family: 'Menlo';
+    font-family: 'Ubuntu';
     border-top-right-radius: 6px;
     border-bottom-right-radius: 6px;
     padding: 10px;
@@ -142,13 +142,12 @@ html, body{ margin:0px 0px; width: 100%;}
 }
 
 h1 {
-    font-family: 'Menlo', sans-serif;
-    text-transform: lowercase;
+    font-family: 'Ubuntu', sans-serif;
     color: rgb(235, 50, 90);
 }
 
 h3 {
-    font-family: 'Menlo', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 p {
@@ -165,20 +164,20 @@ p {
 #footer{
   padding:30px 0px;
   background:black;
-  font-family:'Menlo', sans-serif;
+  font-family:'Ubuntu', sans-serif;
   font-weight: 300;
   color: white;
 }
 
 #footer p {
-    font-family: 'Menlo';
+    font-family: 'Ubuntu';
 }
 
 #footer a {
     color: white!important;
     line-height: 100%;
     margin: 0;
-    font-family: 'Menlo';
+    font-family: 'Ubuntu';
 }
 
 #footer a:hover {
