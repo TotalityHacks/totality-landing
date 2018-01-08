@@ -1,42 +1,153 @@
+<!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
     <title>Totality Hacks 2018</title>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link href="main.css" rel="stylesheet">
-    <script
-        src="https://code.jquery.com/jquery-1.12.4.min.js"
-        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/pills.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="container">
-    <div id="content">
-        <div id="header" class="row text-center">
-            <img class="firstFade" src="logo.svg" width="50%" style="min-width: 325px;">
-            <div class="secondFade">
-                <h1>October 12-14, 2018</h1>
-                <a target="_blank" href="https://goo.gl/maps/ofgrWq9iNFv"><h3>Brooklyn Expo Center, New York</h3></a>
-                <h3>1000 Hackers, 36 hours</h3>
+<body>
+    <div id="wrapper" style="width: 100%;">
+        <div id="hero">
+            <div class="header">
+                <img id="profpic" src="logo.svg" />
+                <center>
+                  <p class="lead">
+		    Redefining the hackathon.<br /><br />
+		    
+                        October 12-14, 2018<br />
+                        <a target="_blank" href="https://goo.gl/maps/ofgrWq9iNFv">Brooklyn Expo Center, New York</a><br />
+                        1000 Hackers, 36 hours<br />
+
+                        <form id="emailForm" class="form-inline text-center thirdFade">
+                            <div class="col-xs-2"></div>
+                            <div class="col-xs-8">
+                                <br>
+                                <div class="form-group">
+                                    <input id="emailInput" type="email" name="email" class="form-control" required placeholder="Enter your Email" autocomplete="off">
+                                    <input type="submit" id="emailSubmit" class="btn btn-default" value="Stay Tuned">
+                                </div>
+                            </div>
+                            <div class="col-xs-2"></div>
+                        </form>
+                    </p>
+                </center>
             </div>
         </div>
-        <form id="emailForm" class="form-inline text-center thirdFade">
-            <div class="col-xs-2"></div>
-            <div class="col-xs-8">
-                <br>
-                <div class="form-group">
-                    <label for="emailInput" class="sr-only">Enter your Email</label>
-                    <input id="emailInput" type="email" name="email" class="form-control" required placeholder="Enter your Email">
-                    <input type="submit" class="btn btn-default" value="Stay Tuned">
+
+        <div class="row">
+            <div class="two columns"></div>
+            <div class="eight columns">
+                <h1 id="about">About</h1>
+                <p>
+                    TotalityHacks was born by asking what would happen if we could design a hackathon from scratch. This re-design started with the organizing team: rather than being organized by students of a singular university and hosted at that university, TotalityHack's team comes from a wide array of schools across the country. The advantages of this are countless, but as an attendee the biggest difference is focus. Instead of needing to try and cater to beginners from the host school and experienced hackers who travel in, we're choosing to just cater TotalityHacks to the most committed and experienced hackers. 
+                </p>
+                <p>
+                    Moreover, this independence allowed us to choose our location instead of relying on where a school is already located. After a nationwide search we landed at the Brooklyn Expo Center in New York City. New York provides an infinite playground for coding breaks, an amazing food scene, and most importantly our venue is easily accessible to the entire northeast by charter bus and/or train while also having three nearby airports for those flying in. 
+                </p>
+                <p>
+                    We're also taking the opportunity to innovate across the board with the hacker experience. Workshops and tech talks will cater to advanced topics--no more struggling to find something more interesting than "intro to python." We'll be announcing exact workshop titles at a later date. We're also working to optimize the hiccups commonly seen in hackathons. Food distribution won't be in one place reducing lines. Check in will be fully automated through technology. Activities will be scattered to reduce lines. We're even going to innovate in category prizes: think category prizes along the lines of best hack without electricity in addition to the usual best hardware hack.
+                </p>
+                <p>
+                    Much of this innovation is possible due to the technology driving TotalityHacks. All of our software will be open sourced on our GitHub account.
+                </p>
+                <br />
+	    </div>
+	</div>
+	
+	<div style="background-color: #ecf0f1;">
+	<div class="row">
+	  <div class="two columns"></div>
+	  <div class="eight columns">
+                <h1 id="learn">Learn</h1>
+                <div class="row">
+                    <div class="six columns">
+                        <h3>Mentorship</h3>
+                        <p>
+                            As a result of our focus on experienced hackers, we're making mentorship about having a person to work through a bug or talk through an idea. We view mentors as floating teammates--they won't be there to teach you how to code, but they'll be there when you need a second opinion.
+                        </p>
+                        <p>
+                            We'll be recruiting mentors from throughout the New York area as well as from sponsoring companies. If you're interested in helping mentor, please email <a href="mailto:mentor@totalityhacks.com">mentor@totalityhacks.com</a>.
+                        </p>
+                    </div>
+                    <div class="six columns">
+                        <h3>Workshops</h3>
+                        <p>
+                            As with mentors, we're taking advantage of the experienced demographic we're catering for. Workshops will be plentiful, but all on more advanced topics. We won't teach you how to write a for loop, but we're happy to teach you the difference between a RNN and CNN. If you have any specific workshops you'd be interested in, feel free to email <a href="mailto:workshops@totalityhacks.com">workshops@totalityhacks.com</a> and we'll do our best to accommodate. At the end of the day, TotalityHacks is your hackathon to learn.
+                        </p>
+                    </div>
+                </div>
+	  </div>
+	</div>
+	</div>
+	
+	  <div class="row">
+	    <div class="two columns"></div>
+	    <div class="eight columns">
+
+                <h1 id="apply">Apply</h1>
+                <h3>The Application Process</h3>
+
+		      <p>
+                We take a bit of a different approach to hackathon admissions. We're mostly looking for people who love to make things, but have also proven they are good at it. That doesn't just mean hackathon experience, but all relevant experience from personal projects to jobs to research. We've developed a custom system to review applications called madras which we've open sourced. If you want to see exactly how we rate your application, feel free to take peruse the code.
+
+                In addition to our normal online application process, we'll also invite winners of select hackathons whose projects have stood out to us. Invited hackers will automatically be given full travel reimbursement.
+            </p>
+            
+            
+            
+            <h3>Timeline</h3>
+		      <p>
+                    Applications will open August 1 and close August 24. Decisions will be released by September 7.
+              </p>
+            
+             <br />
+            
+            
+            <h1>Travel</h1>
+		      <p>
+                    We don't want financial cost to be a barrier to attending Totality Hacks. If you're skilled, we want you. As such, we'll do our best in providing travel reimbursement. Along with your decision, you'll also receive a travel reimbursement cap.
+              </p>
+            
+             <br />
+
+		
+		<h1 id="sponsors">Sponsors</h1>
+		<p>Sponsoring TotalityHacks allows us to put on an event that empowers hackers to be hackers. If you or your company is interested in sponsoring TotalityHacks, please email <a href="mailto:sponsor@totalityhacks.com">sponsor@totalityhacks.com</a>.</p>
+            </div>
+	  </div>
+        </div>
+
+
+
+        <div id="footer">
+            <div class="row">
+                <div class="two columns"></div>
+                <div class="eight columns">
+                    <div class="six columns">
+                        <a href="#home"><img src="favicon-32x32.png" width="50px"></a>
+                        <p>
+			  &copy; 2018 Hackathon Organizers, LLC<br />
+			  Questions? <a href="mailto:hello@totalityhacks.com" style="color: rgb(250, 50, 80)!important;">hello@totalityhacks.com</a>
+			</p>
+                    </div>
+                    <div class="six columns">
+                        <a href="#about">About</a><br />
+                        <a href="#learn">Learn</a><br />
+                        <a href="#apply">Apply</a><br />
+			<a href="#sponsors">Sponsors</a><br />
+                        <a target="_blank" href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf">Code of Conduct</a>
+                    </div>
                 </div>
             </div>
-            <div class="col-xs-2"></div>
-        </form>
+        </div>
     </div>
-    <script src="main.js"></script>
+    <script src="/js/jquery-3.2.1.min.js"></script>
+    <script src="/js/main.js"></script>
+
 </body>
 </html>
