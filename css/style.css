@@ -1,11 +1,11 @@
 html, body{ margin:0px 0px; width: 100%;}
 
-#hero{
+#hero {
     background: black;
   background-size:cover;
   position:relative;
   height:100vh;
-  font-family: 'Roboto', 'Helvetica Neue';
+  font-family: 'Ubuntu', sans-serif;
 }
 
 #hero hr {
@@ -32,7 +32,7 @@ html, body{ margin:0px 0px; width: 100%;}
 
 .header h1 {
   text-align:center;
-  font-family: 'Roboto';
+  font-family: 'Ubuntu', sans-serif;
   font-weight:100;
   font-size: 60px;
   margin-top: 5px;
@@ -47,7 +47,7 @@ html, body{ margin:0px 0px; width: 100%;}
 
 .lead {
   font-size: 17pt;
-  font-family: 'Open Sans', 'Open Sans', 'Helvetica', 'Arial';
+  font-family: 'Open Sans', sans-serif;
   font-weight: 300!important;
   color: grey!important;
   line-height: 130%!important;
@@ -59,12 +59,12 @@ html, body{ margin:0px 0px; width: 100%;}
 }
 
 #emailForm {
-    font-family: 'Open Sans', 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: rgb(235, 50, 90);
 }
 
 #emailInput {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     border-top-left-radius: 6px;
     border-bottom-left-radius: 6px;
     padding: 10px;
@@ -78,7 +78,7 @@ html, body{ margin:0px 0px; width: 100%;}
 }
 
 #emailSubmit {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     border-top-right-radius: 6px;
     border-bottom-right-radius: 6px;
     padding: 10px;
@@ -126,7 +126,7 @@ html, body{ margin:0px 0px; width: 100%;}
 
 .content{
   border-top: 1px solid rgb(220, 220, 220);
-  font-family: 'Open Sans', 'Helvetica', 'Arial';
+  font-family: 'Open Sans', sans-serif;
   padding:30px 0px;
   text-align:justify;
   width:80%;
@@ -134,7 +134,7 @@ html, body{ margin:0px 0px; width: 100%;}
 }
 
 .content h2{
-  font-family: 'Roboto', 'Helvetica Neue';
+  font-family: 'Ubuntu', sans-serif;
   font-size: 30pt;
   font-weight: 100;
   margin:0px 0px 30px 0px;
@@ -142,12 +142,12 @@ html, body{ margin:0px 0px; width: 100%;}
 }
 
 h1 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     color: rgb(235, 50, 90);
 }
 
 h3 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 p {
@@ -158,7 +158,7 @@ p {
 .quote {
     font-style: italic;
     font-weight: 300;
-    font-family: 'Roboto';
+    font-family: 'Open Sans', sans-serif;
 }
 
 #footer{
@@ -170,7 +170,7 @@ p {
 }
 
 #footer p {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-size: 9pt;
 }
 
@@ -178,7 +178,7 @@ p {
     color: white!important;
     line-height: 100%;
     margin: 0;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
 }
 
 #footer a:hover {
