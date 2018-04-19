@@ -1,7 +1,7 @@
 html, body{ margin:0px 0px; width: 100%;}
 
 #hero {
-    background: black;
+    background: linear-gradient(#F05A2A,#E60C88);
   background-size:cover;
   position:relative;
   height:100vh;
@@ -41,7 +41,6 @@ html, body{ margin:0px 0px; width: 100%;}
 
 .header .lead {
   text-align:center!important;
-  /*margin-top: -35px!important;*/
   color:white!important;
 }
 
@@ -58,35 +57,47 @@ html, body{ margin:0px 0px; width: 100%;}
     color: white!important;
 }
 
+.lead a:hover {
+    color: white!important;
+    text-decoration: underline !important;
+}
+
 #emailForm {
     font-family: 'Open Sans', sans-serif;
-    color: rgb(235, 50, 90);
+    color: white;
 }
 
 #emailInput {
     font-family: 'Open Sans', sans-serif;
-    border-top-left-radius: 6px;
-    border-bottom-left-radius: 6px;
-    padding: 10px;
-    border: 1px solid white;
-    color: black;
-    font-size: 10pt;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    padding: 12px;
+    background: rgb(196, 75, 110);
+    border: 0px;
+    color: white;
+    font-size: 18px;
+    width: 165px;
 }
 
 #emailInput:focus {
-    color: rgb(235, 50, 90);
+    color: white;
+}
+
+#emailInput::placeholder {
+    color: white;
 }
 
 #emailSubmit {
     font-family: 'Open Sans', sans-serif;
-    border-top-right-radius: 6px;
-    border-bottom-right-radius: 6px;
-    padding: 10px;
-    border: 1px solid rgb(235, 50, 90);
-    background-color: rgb(235, 50, 90);
-    color: white;
-    font-size: 10pt;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    padding: 12px;
+    border: 0px;
+    background-color: white;
+    color: rgb(196, 75, 110);
+    font-size: 18px;
     font-weight: bold;
+    margin-left: -5px;
 }
 
 #emailSubmit:hover {
@@ -120,7 +131,7 @@ html, body{ margin:0px 0px; width: 100%;}
 
 #profpic {
   padding-bottom: 0;
-  width: 380px;
+  width: 640px;
   height: 100px;
 }
 

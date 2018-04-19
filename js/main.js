@@ -7,6 +7,7 @@ $("#submitEmail").click(function() {
 });
 
 $("#emailForm").submit(function() {
+    document.getElementById("emailSubmit").value = "Saving...";
     $.post(
         "https://whispering-waters-46499.herokuapp.com/",
         {"email": $("#emailInput").val()},
@@ -14,7 +15,7 @@ $("#emailForm").submit(function() {
             $("#emailForm").html("<br>Thank you. We'll keep you posted.");
         },
     ).fail(function() {
-        $("#emailForm").html("<br>Hmm. The email submission didn't work. Try again later.");
+        $("#emailForm").html("<br>Hmm. The email submission didn't work. Please reload the page or try again later.");
     });
     return false;
 });
