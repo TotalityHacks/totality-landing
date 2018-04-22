@@ -162,7 +162,8 @@ h3 {
 }
 
 p {
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300!important;
     font-size: 14pt;
 }
 
