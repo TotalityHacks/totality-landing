@@ -256,3 +256,14 @@ tr:nth-child(even){background-color: #ddeef2}
     /*font-size: 40px;*/
   }
 }
+
+
+/** Sponsorship Logo Styles **/
+#sponsorLogos {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.logo-medium {
+    width: 250px;
+}
