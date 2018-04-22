@@ -14,7 +14,6 @@ html, body{ margin:0px 0px; width: 100%;}
   background-color:white;
 }
 
-
 #hero #quote {
   font-style:italic;
 }
@@ -81,6 +80,7 @@ html, body{ margin:0px 0px; width: 100%;}
 
 #emailInput:focus {
     color: white;
+    outline: 0;
 }
 
 #emailInput::placeholder {
@@ -100,13 +100,16 @@ html, body{ margin:0px 0px; width: 100%;}
     margin-left: -5px;
 }
 
+#emailSubmit:focus {
+  outline: 0;
+}
+
 #emailSubmit:hover {
     cursor: pointer;
 }
 
 #emailSubmit:active {
     background-color: #9b59b6;
-    border: 1px solid #9b59b6;
 }
 
 .social img {
