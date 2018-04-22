@@ -261,7 +261,8 @@ tr:nth-child(even){background-color: #ddeef2}
 /** Sponsorship Logo Styles **/
 #sponsorLogos {
     text-align: center;
-    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
 
 .logo-medium {
