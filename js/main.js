@@ -7,7 +7,7 @@ $("#submitEmail").click(function() {
 });
 
 $("#emailForm").submit(function() {
-    document.getElementById("emailSubmit").value = "Saving...";
+    document.getElementById("emailSubmit").innerHTML = "Saving...";
     $.post(
         "https://whispering-waters-46499.herokuapp.com/",
         {"email": $("#emailInput").val()},

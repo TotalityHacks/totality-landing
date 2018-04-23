@@ -1,7 +1,7 @@
 html, body{ margin:0px 0px; width: 100%;}
 
 #hero {
-    background: linear-gradient(#F05A2A,#E60C88);
+  background: linear-gradient(#F05A2A,#E60C88);
   background-size:cover;
   position:relative;
   height:100vh;
