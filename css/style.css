@@ -61,55 +61,27 @@ html, body{ margin:0px 0px; width: 100%;}
     text-decoration: underline !important;
 }
 
-#emailForm {
-    font-family: 'Open Sans', sans-serif;
-    color: white;
-}
-
-#emailInput {
-    font-family: 'Open Sans', sans-serif;
-    border-top-left-radius: 12px;
-    border-bottom-left-radius: 12px;
-    padding: 12px;
-    background: rgb(196, 75, 110);
-    border: 0px;
-    color: white;
-    font-size: 18px;
-    width: 165px;
-}
-
-#emailInput:focus {
-    color: white;
-    outline: 0;
-}
-
-#emailInput::placeholder {
-    color: white;
-}
-
-#emailSubmit {
-    font-family: 'Open Sans', sans-serif;
-    border-top-right-radius: 12px;
-    border-bottom-right-radius: 12px;
+#applyButton {
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 12px;
     padding: 12px;
     border: 0px;
     background-color: white;
-    color: rgb(196, 75, 110);
-    font-size: 18px;
+    color: rgb(196, 75, 110) !important;
     font-weight: bold;
-    margin-left: -5px;
+    margin-top: 50px;
+    height: 50px;
+    width: 285px;
+    display: inline-block;
 }
 
-#emailSubmit:focus {
+#applyButton:focus {
   outline: 0;
 }
 
-#emailSubmit:hover {
+#applyButton:hover {
     cursor: pointer;
-}
-
-#emailSubmit:active {
-    background-color: #9b59b6;
+    text-decoration: none!important;
 }
 
 .social img {
@@ -250,7 +222,7 @@ tr:nth-child(even){background-color: #ddeef2}
       font-size: 8.5pt;
   }
 
-  #emailSubmit {
+  #applyButton {
       font-size: 8.5pt;
   }
 }
