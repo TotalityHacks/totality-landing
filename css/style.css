@@ -272,3 +272,7 @@ tr:nth-child(even){background-color: #ddeef2}
 .logo-medium {
     width: 250px;
 }
+
+.logo-partner {
+    width: 150px;
+}
