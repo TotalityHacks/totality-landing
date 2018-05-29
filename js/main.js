@@ -19,3 +19,14 @@ $("#emailForm").submit(function() {
     });
     return false;
 });
+
+setTimeout(function() {
+    $("#hero").animate(
+        {"height": "80vh"},
+        750,
+        "swing",
+        function() {
+            $("#hero").css("height", "calc(100vh - 160px)");
+        }
+    );
+}, 1500);
