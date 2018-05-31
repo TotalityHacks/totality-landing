@@ -227,7 +227,9 @@ tr:nth-child(even){background-color: #ddeef2}
   }
 
   #applyButton {
-      font-size: 8.5pt;
+      font-size: 10pt;
+      height: 45px;
+      width: 200px;
   }
 }
 
