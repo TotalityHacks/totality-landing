@@ -136,6 +136,11 @@ h3 {
     font-family: 'Ubuntu', sans-serif;
 }
 
+h4 {
+	font-family: 'Ubuntu', sans-serif;
+    color: rgb(235, 50, 90);
+}
+
 p {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300!important;
