@@ -129,19 +129,36 @@ html, body{ margin:0px 0px; width: 100%;}
 
 h1 {
     font-family: 'Ubuntu', sans-serif;
+    font-weight: lighter;
+    color: rgb(235, 50, 90);
+    
+}
+
+h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: lighter;
     color: rgb(235, 50, 90);
 }
 
 h3 {
     font-family: 'Ubuntu', sans-serif;
+    font-weight: lighter;
+    color: rgb(235, 50, 90);
 }
 
 h4 {
 	font-family: 'Ubuntu', sans-serif;
+    font-weight: lighter;
     color: rgb(235, 50, 90);
 }
 
 p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300!important;
+    font-size: 14pt;
+}
+
+li {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300!important;
     font-size: 14pt;
