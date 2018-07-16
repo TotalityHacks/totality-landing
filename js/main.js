@@ -30,3 +30,13 @@ setTimeout(function() {
         }
     );
 }, 1500);
+
+$('#faq').find('h3').click(function(e) {
+    if ($(this).hasClass('faq-visible')) {
+        $(this).removeClass('faq-visible');
+        $(this).next().height('0');
+    } else {
+        $(this).addClass('faq-visible');
+        $(this).next().height('auto');
+    }
+});

@@ -152,7 +152,7 @@ h4 {
     color: rgb(235, 50, 90);
 }
 
-p {
+p, div.faq-answer {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300!important;
     font-size: 14pt;
@@ -275,4 +275,28 @@ tr:nth-child(even){background-color: #ddeef2}
 
 .logo-partner {
     width: 150px;
+}
+
+#faq h3 {
+  cursor: pointer;
+}
+
+#faq h3::after {
+  border-top: 0.25em solid transparent;
+  border-bottom: 0.25em solid transparent;
+  border-left: 0.5em solid rgb(235, 50, 90);
+  content: '';
+  display: inline-block;
+  position: relative;
+  margin-left: 10px;
+  transition: 0.1s;
+}
+
+#faq h3+div {
+  height: 0;
+  overflow: hidden;
+}
+
+#faq h3.faq-visible::after {
+  transform: rotateZ(90deg);
 }
