@@ -1,6 +1,4 @@
-$(".firstFade").delay(1000).animate({ opacity: 1 }, 1500);
-$(".secondFade").delay(1750).animate({ opacity: 1 }, 1500);
-$(".thirdFade").delay(2000).animate({ opacity: 1 }, 1500);
+
 
 $("#submitEmail").click(function() {
     document.getElementById("emailForm").submit();
@@ -19,17 +17,6 @@ $("#emailForm").submit(function() {
     });
     return false;
 });
-
-setTimeout(function() {
-    $("#hero").animate(
-        {"height": "80vh"},
-        750,
-        "swing",
-        function() {
-            $("#hero").css("height", "calc(100vh - 160px)");
-        }
-    );
-}, 1500);
 
 $('#faq').find('h3').click(function(e) {
     if ($(this).hasClass('faq-visible')) {
